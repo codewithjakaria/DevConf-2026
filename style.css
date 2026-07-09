@@ -41,3 +41,38 @@ ul li a {
   cursor: pointer;
 }
 
+/* Hero/Banner Design part */
+#hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.55)),
+    url("./assets/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+}
+.hero-content {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: center;
+}
+.hero-content h2 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 24px;
+  margin-top: 136px;
+}
+.hero-content p {
+  color: rgb(199, 197, 197);
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 230px;
+  padding: 0 20px;
+}
+
